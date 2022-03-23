@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'reverse-phrase';
+  text = '';
+  reversedText = '';
+
+  onClickReverse() {
+    this.reversedText = this.text.split('').reverse().join('');
+    console.log('Button Clicked!');
+  }
+
+  onInputText (value: string) {
+    this.text = value;
+  }
 }
