@@ -1,0 +1,22 @@
+img {
+  width: 300px;
+  height: 300px;
+}
+:host {
+  padding: 10px;
+}
+
+.post{
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  display: block;
+}
+
+.author{
+  padding: 10px;
+  color: #6c757d;
+}
+
+.title{
+  padding: 10px;
+}

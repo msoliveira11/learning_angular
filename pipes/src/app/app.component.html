@@ -1,0 +1,7 @@
+<p>{{ name | titlecase }}</p>
+<p>{{ todaysDate | date: 'MMMM d' }}</p>
+<p>{{ cost | currency: 'BRL' }}</p>
+<p>{{ temperature | number: '1.2-5' }}</p>
+<p>{{ pizza | json }}</p>
+<p>{{cost | double: 2 : true | currency }}</p>
+<p *ngIf="(cost | double) > 3000">Show me!</p>
